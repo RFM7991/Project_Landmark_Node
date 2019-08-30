@@ -1,0 +1,24 @@
+{
+  "name": "landmark_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "author": "Robert McPherson",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "body-parser": "^1.19.0",
+    "citysdk": "^2.0.34",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-pino-logger": "^4.0.0",
+    "fs": "0.0.1-security",
+    "glob": "^7.1.4",
+    "mongodb": "^3.3.0-beta2",
+    "node-fetch": "^2.6.0"
+  }
+}
